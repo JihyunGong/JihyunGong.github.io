@@ -19,8 +19,8 @@ locale                   : "en-US"
 title                    : "Jihyun's study log"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Jihyun Gong 공지현"
-description              : "An amazing website."
+name                     : "Jihyun Gong"
+description              : "Jihyun's study log"
 url                      : "https://JihyunGong.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -105,7 +105,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Steady Movements"
   location         : 
-  email            : "jihyun2462@gmail.com"
+  #email            : "jihyun2462@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
