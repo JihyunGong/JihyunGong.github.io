@@ -105,7 +105,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Steady Movements"
   location         : 
-  #email            : "jihyun2462@gmail.com"
+  email            : "jihyun2462@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
