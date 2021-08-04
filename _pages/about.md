@@ -8,8 +8,9 @@ author_profile: true
 ---
 
 # Introduction
-Hello. This is Jihyun Gong, who is highly interested in Computer-Science. 
-I hope to become a brilliant back-end developer in the near future. 
+Hello. This is Jihyun Gong. I am highly interested in Computer-Science. 
+I hope to become a brilliant software developer in the near future. 
+
 
 # Education
 - Gyeong-il Girl's High School (2012.03 - 2015.02)
@@ -23,4 +24,4 @@ I hope to become a brilliant back-end developer in the near future.
 
 
 # Career
-### Coming Soon
+- Coming Soon
