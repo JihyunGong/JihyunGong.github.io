@@ -5,6 +5,8 @@ excerpt: "about.md"
 toc: true
 tags: [About]
 author_profile: true
+sidebar:
+  nav: "[JihyunGong.github.io/about]"
 ---
 
 # Introduction
