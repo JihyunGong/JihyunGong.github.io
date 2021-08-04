@@ -20,7 +20,7 @@ title                    : "Jihyun's studyLog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Jihyun's studyLog"
-description              : "'Steady movements'"
+description              : "Steady movements :D"
 url                      : "https://JihyunGong.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "JihyunGong/JihyunGong.github.io"
@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "Jihyun Gong"
   avatar           : "/assets/images/profile.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "'Steady movements'"
+  bio              : "Steady movements :D"
   location         : "South Korea"
   email            : "jihyun2462@gmail.com"
   links:
