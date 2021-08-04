@@ -5,7 +5,7 @@ main:
     url: https://JihyunGong.github.io/first/
   - title: "Categories"
     url: /Categories/
-#   - title: "Sample Collections"
-#     url: /collection-archive/
-#   - title: "Sitemap"
-#     url: /sitemap/
+  - title: "Tags"
+    url: /tags/
+  - title: "Years"
+    url: /year-archive/
