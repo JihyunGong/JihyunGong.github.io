@@ -7,6 +7,10 @@ tags: [About]
 author_profile: true
 ---
 
+# Introduction
+Hello. This is Jihyun Gong, who is highly interested in Computer-Science. 
+I hope to become a brilliant back-end developer in the near future. 
+
 # Education
 - Gyeong-il Girl's High School (2012.03 - 2015.02)
   - Changwon-si, Korea
@@ -16,3 +20,7 @@ author_profile: true
 - Seneca College (2018.05 - 2019.12)
   - Diploma of Computer Programmer
   - Toronto, Canada
+
+
+# Career
+### Coming Soon
