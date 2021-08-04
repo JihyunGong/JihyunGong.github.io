@@ -4,7 +4,6 @@ title: "About"
 excerpt: "about.md"
 toc: true
 tags: [About]
-categories: [About]
 author_profile: true
 ---
 
