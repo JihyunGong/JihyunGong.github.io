@@ -9,7 +9,7 @@ author_profile: true
 
 # Introduction
   Hello. This is Jihyun Gong. I am highly interested in *Computer-Science*.   
-  I hope to become *a brilliant Software Developer* in the near future. 
+  I hope to become *a brilliant Software Developer* in the near future. ff
 
 
 # Education
