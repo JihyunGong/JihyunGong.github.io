@@ -2,6 +2,8 @@
 permalink: /about/
 title: "About"
 layout: single
+excerpt: "about.md"
+toc: true
 tags: [About]
 author_profile: true
 ---
