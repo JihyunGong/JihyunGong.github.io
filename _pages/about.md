@@ -2,15 +2,16 @@
 permalink: /about/
 title: "About"
 layout: single
+tags: [About]
 author_profile: true
 ---
 
-## Introduction
+# Introduction
 Hello. This is Jihyun Gong. I am highly interested in *Computer-Science*.   
 I hope to become *a brilliant Software Developer* in the near future. 
 
 
-## Education
+# Education
 - Gyeong-il Girl's High School (2012.03 - 2015.02)
   - Changwon-si, Korea
 - Ulsan University (2015.03 - 2016.12)
@@ -21,5 +22,5 @@ I hope to become *a brilliant Software Developer* in the near future.
   - Toronto, Canada
 
 
-## Career
+# Career
 - Coming Soon
