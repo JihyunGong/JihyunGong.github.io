@@ -2,7 +2,7 @@
 main:
 
   - title: "About"
-    url: https://JihyunGong.github.io/about/
+    url: /about/
   - title: "Categories"
     url: /categories/
   - title: "Tags"
