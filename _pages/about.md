@@ -6,7 +6,7 @@ toc: true
 tags: [About]
 author_profile: true
 sidebar:
-  nav: "[JihyunGong.github.io/about]"
+  nav: "[https://JihyunGong.github.io/about/]"
 ---
 
 # Introduction
