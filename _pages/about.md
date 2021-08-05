@@ -2,7 +2,6 @@
 permalink: /about/
 title: "About"
 layout: single
-tags: [About]
 toc: true
 author_profile: true
 ---
