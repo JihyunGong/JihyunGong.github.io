@@ -10,9 +10,9 @@ toc: true
 ## Selectors 정의
 쉽게 말해, **선택자(Selectors)** 는 HTML파일에 스타일을 입힐 범위를 정한다. 
 
-선택자에는 다양한 것들이 있는데 오늘 살펴볼 선택자는 **class**와 **id**이다.  
+선택자에는 다양한 것들이 있는데 오늘 살펴볼 선택자는 **class** 와 **id** 이다.  
 
-이것들은 CSS의 선택자(selectors)이자 HTML의 속성(attribute)이다. 이러한 선택자를 통해 HTML파일의 원하는 요소에 접근할 수 있다.  
+이것들은 CSS의 <u>선택자(selectors)</u>이자 HTML의 <u>속성(attribute)</u>이다. 이러한 선택자를 통해 HTML파일의 원하는 요소에 접근할 수 있다.  
 
 아래 예시를 통해 알아보자.
 ```html
