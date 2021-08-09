@@ -7,7 +7,7 @@ tags: [TIL, CSS, HTML, class, id]
 toc: true
 ---
 
-## Selectors 정의
+## 1. Selectors 정의
 쉽게 말해, **선택자(Selectors)** 는 HTML파일에 스타일을 입힐 범위를 정한다. 
 
 선택자에는 다양한 것들이 있는데 오늘 살펴볼 선택자는 **class** 와 **id** 이다.  
@@ -29,7 +29,7 @@ toc: true
 위의 코드는 선택자 id #test를 통해 HTML파일에 "test"값을 가진 요소에 접근하여 폰트 색상을 입힌 것이다. 
 
 
-## class와 id의 차이
+## 2. class와 id의 차이
 class와 id의 큰 차이는 *이름(name)* 에서 난다. 아래의 테이블을 통해 알아보자. 
 
 \ | class | id
