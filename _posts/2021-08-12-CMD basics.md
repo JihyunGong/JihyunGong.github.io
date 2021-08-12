@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[CMD] directory/file 생성, 삭제, 이동하는 법"
+title: "[CMD] CLI로 내 파일 관리하는 법"
 comments: true
 categories: [TIL, CMD]
 tags: [TIL, CMD]
@@ -25,7 +25,7 @@ TIP: directory를 생성하기 위해서 먼저 <u>directory를 생성할 위치
 - 'test' directory 생성  
 ![create_directory](imgs/create_directory.png)
 - directory 생성확인  
-아래에서 보는 것과 같이 'dir'을 입력해주면 current working directory에 있는 <u>하위 directory들을 목록화시켜준다.</u> 
+명령어 'dir'을 입력해주면 current working directory에 있는 <u>하위 directory들을 목록화시켜준다.</u> 
 ![list_directory](imgs/list_directory.png)
 
 > **'test'폴더안에 'txt_file'폴더 생성하기**  
@@ -63,3 +63,10 @@ SOLUTION: 'rmdir' 명령어 오른쪽에 **'/s'** 를 붙여주면 된다.
 ![delete_empty_directory](imgs/delete_empty_directory.png)
 - directory 삭제확인
 ![list_direcgtory2](imgs/list_directory2.png)
+
+<br/><br/>
+**결론: 접근이 용이한 GUI를 쓰는 대신, 어려운 명령어를 써야하는 CLI를 쓰는 이유는 속도가 빠르고 메모리 소비가 낮아서이다.**  
+
+**_NOTE:_** GUI(Graphical User Interface)란?  
+아래와 같이 아이콘이나 이미지, 스크롤 등으로 파일 관리 및 기타 작업을 수행한다. 
+![GUI](imgs/GUI.png)
