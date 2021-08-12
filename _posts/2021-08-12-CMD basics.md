@@ -14,6 +14,7 @@ toc: true
 
 
 ## 1. cmd창 열기
+
 ![open_cmd](imgs/open_cmd.png)
 
 
