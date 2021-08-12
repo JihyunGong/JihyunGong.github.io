@@ -14,7 +14,7 @@ toc: true
 
 
 ## 1. cmd창 열기  
-![open_cmd](imgs/open_cmd.png)
+![open_cmd](_posts/imgs/open_cmd.png)
 
 
 ## 2. directory(folder) 생성하기
