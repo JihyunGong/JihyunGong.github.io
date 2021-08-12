@@ -13,8 +13,9 @@ toc: true
 오늘의 주제는 cmd를 이용해 폴더와 파일을 생성, 삭제, 이동하는 법에 대해 알아보자. 
 
 
-## 1. cmd창 열기  
-![open_cmd](_posts/imgs/open_cmd.png)
+## 1. cmd창 열기 
+
+![open_cmd](imgs/open_cmd.png)
 
 
 ## 2. directory(folder) 생성하기
