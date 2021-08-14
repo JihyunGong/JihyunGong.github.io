@@ -56,7 +56,7 @@ TIP: directory를 생성하기 위해서 먼저 <u>directory를 생성할 위치
 ERROR: 'txt_file'폴더는 빈파일이 아니라서 에러가 뜬다. 
 <img src="/assets/images/delete_directory_error.png" alt="delete_directory_error">
 SOLUTION: 'rmdir' 명령어 오른쪽에 **'/s'** 를 붙여주면 된다.
-![delete_directory](/images/delete_directory.png)
+<img src="/assets/images/delete_directory.png" alt="delete_directory">
 
 > **'test'폴더 삭제하기**
 - 'test' directory 삭제  
