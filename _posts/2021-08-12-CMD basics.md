@@ -15,60 +15,59 @@ toc: true
 
 ## 1. cmd창 열기 
 
-<!-- ![open_cmd](./images/open_cmd.png) -->
-<img src="./images/open_cmd.png" alt="open_cmd">
+<img src="/assets/images/open_cmd.png" alt="open_cmd">
 
 
 ## 2. directory(folder) 생성하기
 > **desktop에 'test'폴더 만들기**
 - desktop으로 이동  
 TIP: directory를 생성하기 위해서 먼저 <u>directory를 생성할 위치로</u> 이동해주는 것이 좋다.  
-![cd_directory](/images/cd_directory.png)
+<img src="/assets/images/cd_directory.png" alt="cd_directory">
 - 'test' directory 생성  
-![create_directory](/images/create_directory.png)
+<img src="/assets/images/create_directory.png" alt="create_directory">
 - directory 생성확인  
 명령어 'dir'을 입력해주면 current working directory에 있는 <u>하위 directory들을 목록화시켜준다.</u> 
-![list_directory](/images/list_directory.png)
+<img src="/assets/images/list_directory.png" alt="list_directory">
 
 > **'test'폴더안에 'txt_file'폴더 생성하기**  
 - 'txt_file' directory 생성  
-![create_nested_directory](/images/create_nested_directory.png)
+<img src="/assets/images/create_nested_directory.png" alt="create_nested_directory">
 
 
 ## 3. file 생성하기
 > **'test'폴더안에 'jihyun.txt'파일 만들기**
 - 'jihyun.txt' 생성
-![create_empty_file](/images/create_empty_file.png)
+<img src="/assets/images/create_empty_file.png" alt="create_empty_file">
 
 > **'jihyun.txt'파일 안에 인삿말 넣기**
 - text 입력
-![enter_text_in_file](/images/enter_text_in_file.png)
+<img src="/assets/images/enter_text_in_file.png" alt="enter_text_in_file">
 
 
 ## 4. file 이동하기
 > **'jihyun.txt'파일을 'txt_file'폴더로 이동하기**
 - file 이동
-![move_file](/images/move_file.png)
+<img src="/assets/images/move_file.png" alt="move_file">
 
 
 ## 5. directory 삭제하기
 > **'txt_file'폴더 삭제하기**
 - 'txt_file' directory 삭제  
 ERROR: 'txt_file'폴더는 빈파일이 아니라서 에러가 뜬다. 
-![delete_directory_error](/images/delete_directory_error.png)
+<img src="/assets/images/delete_directory_error.png" alt="delete_directory_error">
 SOLUTION: 'rmdir' 명령어 오른쪽에 **'/s'** 를 붙여주면 된다.
 ![delete_directory](/images/delete_directory.png)
 
 > **'test'폴더 삭제하기**
 - 'test' directory 삭제  
 'test' directory는 이제 비어있기 떄문에 'rmdir'명령어만 써도 된다. 
-![delete_empty_directory](/images/delete_empty_directory.png)
+<img src="/assets/images/delete_empty_directory.png" alt="delete_empty_directory">
 - directory 삭제확인
-![list_direcgtory2](/images/list_directory2.png)
+<img src="/assets/images/list_directory2.png" alt="list_directory2">
 
 <br/><br/>
 **결론: 접근이 용이한 GUI를 쓰는 대신, 어려운 명령어를 써야하는 CLI를 쓰는 이유는 속도가 빠르고 메모리 소비가 낮아서이다.**  
 
 **_NOTE:_** GUI(Graphical User Interface)란?  
 아래와 같이 아이콘이나 이미지, 스크롤 등으로 파일 관리 및 기타 작업을 수행한다. 
-![GUI](/images/GUI.png)
+<img src="/assets/images/GUI.png" alt="GUI">
