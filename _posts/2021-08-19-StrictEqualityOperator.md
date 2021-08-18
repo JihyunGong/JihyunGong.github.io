@@ -37,4 +37,5 @@ console.log(null == undefined); //returns true 이유: '값이 없음' 일치 (�
 console.log(null === undefined); //return false 이유: null은 object type, undefined는 undefined type
 ```
 
+
 **결론: Strict equality(===)는 Equality(==)보다 더 정확한 값을 반환할 수 있다. 따라서, 대부분의 경우 Strict equality 연산자를 쓰는 것이 좋다.** 
