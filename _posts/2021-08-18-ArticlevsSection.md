@@ -18,6 +18,7 @@ semantic을 직역하면 *"의미론적인"* 이라는 뜻이다. HTML에서 ele
 
 
 ## 2. article과 section 차이
+
 article | section
 --- | ---
 홀로 독립적인 내용을 담고 싶을 때 사용<br/> ex) 블로그, 뉴스 | 서로 관련있는 내용을 담고 싶을 때 사용<br/> ex) 목차, 설명글
