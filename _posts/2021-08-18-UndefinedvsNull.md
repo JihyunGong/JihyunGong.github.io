@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[JS] undefined"
+title: "[JavaScript] undefined"
 comments: true
 categories: [TIL, CMD]
 tags: [TIL, CMD]
