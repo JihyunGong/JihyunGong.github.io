@@ -68,6 +68,6 @@ SOLUTION: 'rmdir' 명령어 오른쪽에 **'/s'** 를 붙여주면 된다.
 <br/><br/>
 **결론: 접근이 용이한 GUI를 쓰는 대신, 어려운 명령어를 써야하는 CLI를 쓰는 이유는 속도가 빠르고 메모리 소비가 낮아서이다.**  
 
-**_NOTE:_** GUI(Graphical User Interface)란?  
+***NOTE:*** GUI(Graphical User Interface)란?  
 아래와 같이 아이콘이나 이미지, 스크롤 등으로 파일 관리 및 기타 작업을 수행한다. 
 <img src="/assets/images/GUI.png" alt="GUI">
