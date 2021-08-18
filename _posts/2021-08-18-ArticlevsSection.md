@@ -8,12 +8,12 @@ comments: true
 ---
 
 ## 1. article과 section 정의
-**article**과 **section**은 모두 **"Semantic Elements"** 들이다.  
+**article** 과 **section** 은 모두 **"Semantic Elements"** 들이다.  
 
 > ***NOTE:*** Semantic Elements란?  
 semantic을 직역하면 *"의미론적인"* 이라는 뜻이다. HTML에서 elements는 non-semantic elements와 semantic elements로 나뉜다.  
-**non-semantic elements**: 의미없는 내용을 담고있는 요소 ex) div, span, p  
-**semantic elements**: 의미있는 내용은 담고있는 요소 ex) header, main, section, article, footer  
+**non-semantic elements** : 의미없는 내용을 담고있는 요소 ex) div, span, p  
+**semantic elements** : 의미있는 내용은 담고있는 요소 ex) header, main, section, article, footer  
 ***cf)*** 의미없는 내용을 담을 경우 non-semantic elements를 사용하면 안된다. 예를 들어, 내용들 간 구역만 나누고 싶을 때는 div 요소를 사용해주면 된다. 
 
 
