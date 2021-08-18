@@ -7,7 +7,7 @@ tags: [TIL, CMD]
 toc: true
 ---
 
-## CLI(Command Line Interface) 정의
+## CLI 정의
 **CLI** 즉, **Command Line Interface**는 Windows OS 기준 **'명령 프롬프트(cmd)'** 창을 열어서 명령어를 통해 컴퓨터내 폴더와 파일을 관리해주는 것이다.
 
 오늘의 주제는 cmd를 이용해 폴더와 파일을 생성, 삭제, 이동하는 법에 대해 알아보자. 
