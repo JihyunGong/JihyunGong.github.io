@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "[HTML] article과 section의 차이"
+date: 2021-08-18
 categories: [TIL, HTML]
 tags: [TIL, HTML, semantic elements, article, section]
 toc: true
