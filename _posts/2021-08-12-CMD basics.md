@@ -1,10 +1,11 @@
 ---
 layout: single
 title: "[CMD] CLI로 내 파일 관리하는 법"
-comments: true
+date: 2021-08-12
 categories: [TIL, CMD]
 tags: [TIL, CMD]
 toc: true
+comments: true
 ---
 
 ## CLI 정의
