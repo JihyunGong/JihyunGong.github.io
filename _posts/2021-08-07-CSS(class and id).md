@@ -1,10 +1,11 @@
 ---
 layout: single
 title: "[CSS] Selectors 'class'와 'id'의 차이"
-comments: true
+date: 2021-08-07
 categories: [TIL, CSS]
 tags: [TIL, CSS, HTML, class, id]
 toc: true
+comments: true
 ---
 
 ## 1. Selectors 정의
