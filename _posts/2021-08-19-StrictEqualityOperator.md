@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "[JavaScript] Equality(==) vs Strict Equality(===)"
+date: 2021-08-19
 categories: [TIL, JavaScript]
 tags: [TIL, JavaScript, Logical Operator]
 toc: true
