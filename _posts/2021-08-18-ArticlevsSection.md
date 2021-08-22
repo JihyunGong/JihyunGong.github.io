@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[HTML] article과 section의 차이"
+title: "[HTML] Semantic Elements: article & section"
 date: 2021-08-18
 categories: [TIL, HTML]
 tags: [TIL, HTML, semantic elements, article, section]
@@ -8,9 +8,7 @@ toc: true
 comments: true
 ---
 
-## Semantic Elements 정의
-먼저 **article**과 **section**은 모두 **"Semantic Elements"** 들이다.  
-
+## Semantic Elements란?
 semantic을 직역하면 <u>의미론적인</u> 이라는 뜻이다. HTML에서 elements는 non-semantic elements와 semantic elements로 나뉜다.  
 
 - **non-semantic elements**: 의미없는 내용을 담고있는 요소 ex) div, span, p  
