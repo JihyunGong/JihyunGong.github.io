@@ -41,6 +41,7 @@ comments: true
 
 아래의 예시를 통해 더 자세히 알아보자. 
 > 주의사항: index값은 0부터 시작한다.
+
 ```javascript
 var str = 'Hello, world';
 
