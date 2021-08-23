@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[JavaScript] JavaScript를 이용한 윤년 계산 하는 법"
+title: "[JavaScript] JavaScript를 이용한 윤년 구하기"
 date: 2021-08-24
 categories: [TIL, JavaScript]
 tags: [TIL, JavaScript, LeapYear]
@@ -9,11 +9,12 @@ comments: true
 ---
 
 ## 윤년 계산법
-연도를 4로 나누어 나머지가 0으로 떨어지는 해는 윤년이다. 그러나, 그 중 100으로 나누어 떨어지는 해는 윤년이 아니다.  
+연도를 4로 나누어 나머지가 0으로 떨어지는 해는 윤년이다. 그러나, 그 중 100으로 나누어 떨어지는 해는 윤년이 아니다. 
+
 앞의 조건이 참이건 거짓이건 연도를 400으로 나누어 떨어지는 해는 윤년이다. 
 
 
-아래 코드를 통해 이해해보자. 
+<br/>아래 코드를 통해 이해해보자. 
 
 ```javascript
 var year = [2000, 2004, 2100, 2021];
