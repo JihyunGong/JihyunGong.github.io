@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "[JavaScript] JavaScript를 이용한 윤년 계산 하는 법"
-date: 2021-08-22
+date: 2021-08-24
 categories: [TIL, JavaScript]
 tags: [TIL, JavaScript, LeapYear]
 toc: true
