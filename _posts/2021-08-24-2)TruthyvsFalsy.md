@@ -13,6 +13,7 @@ comments: true
 
 - Truthy: true을 반환하는 값들
   -  Falsy값을 제외한 모든 값
+  
   ```javascript
   if(true) console.log('true'); //returns "true"
   if({}) console.log('true'); //returns "true"
@@ -32,6 +33,7 @@ comments: true
   - null
   - undefined
   - NaN
+  
   ```javascript
   if(false) console.log('Not Falsy'); //returns nothing
   if(0) console.log('Not Falsy'); //returns nothing
