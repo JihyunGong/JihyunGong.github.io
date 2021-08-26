@@ -9,18 +9,18 @@ comments: true
 ---
 
 ## 1. 문자열 역순 출력하기
-문제: 반복문을 이용하여 아래에 주어진 문자열을 역순으로 출력하는 코드를 작성해보세요. 
+**문제**: 반복문을 이용하여 아래에 주어진 문자열을 역순으로 출력하는 코드를 작성해보세요. 
 ```javascript
 var name = "Jihyun";
 // 역순으로 한 글자씩 출력하는 반복문을 작성해보세요. 
 ```
 
-출력 예시:
+**출력 예시**:
 ```javascript
 "nuyhiJ"
 ```
 
-나의 풀이:
+**나의 풀이**:
 ```javascript
 var name = "Jihyun";
 var reverName = ""; // 역순으로 출력된 문자열을 담을 String타입의 빈 변수
@@ -33,18 +33,18 @@ console.log(reverName); //역순으로 정렬된 문자열 출력
 
 
 ## 2. 문자열의 홀수번째 글자만 출력하기
-문제: 반복문을 이용하여 아래에 주어진 문자열의 홀수번째 글자만 출력하는 코드를 작성해보세요. 
+**문제**: 반복문을 이용하여 아래에 주어진 문자열의 홀수번째 글자만 출력하는 코드를 작성해보세요. 
 ```javascript
 var longText = "0i1a2m3j4i5h6y7u8n9";
 // 홀수번째 글자만 출력하는 코드를 작성해보세요.
 ```
 
-출력 예시:
+**출력 예시**:
 ```javascript
 "iamjihyun"
 ```
 
-나의 풀이1:
+**나의 풀이1**:
 ```javascript
 var longText = "0i1a2m3j4i5h6y7u8n9"; // 문자열은 0번째 부터 시작이다. 첫 홀수번째 글자는 'i'가 된다.
 var oddText = ""; // 홀수번째 글자만 담을 String타입의 빈 변수
@@ -54,7 +54,7 @@ for(var i = 1; i < longText.length; i +=2){ // 변수 i에 2씩 더해 홀수번
 }
 console.log(oddText); // 홀수번째 문자열 출력
 ```
-나의 풀이2:
+**나의 풀이2**:
 ```javascript
 var longText = "0i1a2m3j4i5h6y7u8n9"; // 문자열은 0번째 부터 시작이다. 첫 홀수번째 글자는 'i'가 된다.
 var oddText = ""; // 홀수번째 글자만 담을 String타입의 빈 변수
@@ -67,14 +67,14 @@ console.log(oddText); // 홀수번째 문자열 출력
 
 
 ## 3. FizzBuzz
-문제: 자바스크립트의 반복문과 조건문 등을 이용하여 아래와 같은 조건을 만족하는 코드를 작성해보세요. 
+**문제**: 자바스크립트의 반복문과 조건문 등을 이용하여 아래와 같은 조건을 만족하는 코드를 작성해보세요. 
 - 1부터 100까지 console.log를 실행합니다.
 - 3의 배수는 "fizz"라는 문자열을 로그합니다.
 - 5의 배수는 "buzz"라는 문자열을 로그합니다.
 - 3과 5의 공배수는 "fizzbuzz"라는 문자열을 로그합니다.
 - 나머지 숫자들은 해당 숫자 자체를 로그합니다.
 
-출력 예시:
+**출력 예시**:
 ```javascript
 1
 2
@@ -100,7 +100,7 @@ fizz
 buzz
 ```
 
-나의 풀이: 
+**나의 풀이**: 
 ```javascript
 for(var i = 1; i <= 100; i++){ // 1부터 100까지의 숫자를 출력하는 반복문
   if(i % (3*5) === 0){
@@ -117,7 +117,7 @@ for(var i = 1; i <= 100; i++){ // 1부터 100까지의 숫자를 출력하는 �
 
 
 ## 4. Biggest Number 
-문제: 아래와 같이 세 개의 변수가 숫자를 담고 있습니다. 가장 큰 수가 무엇인지 연산을 하여 console.log하도록 코드를 작성해보세요.
+**문제**: 아래와 같이 세 개의 변수가 숫자를 담고 있습니다. 가장 큰 수가 무엇인지 연산을 하여 console.log하도록 코드를 작성해보세요.
 - Math.max를 사용하지 마세요.
 - a, b, c 에 담긴 값이 바뀌더라도 항상 정확한 결과가 나올 수 있도록 코드를 작성해보세요. 
 ```javascript
@@ -126,12 +126,12 @@ var b = 20;
 var c = 30;
 ```
 
-출력 예시:
+**출력 예시**:
 ```javascript
 30
 ```
 
-나의 풀이:
+**나의 풀이**:
 ```javascript
 var a = 10;
 var b = 20;
@@ -152,7 +152,7 @@ console.log(maxNum); //maxNum 출력
 
 
 ## 5. Word Position
-문제: 여러분에게 아래와 같이 두 개의 문자열 값이 주어집니다. 
+**문제**: 여러분에게 아래와 같이 두 개의 문자열 값이 주어집니다. 
 하나의 문자열은 단어 정보를 담고 있고, 다른 하나의 문자열은 문장을 담고 있습니다. 
 해당 단어(word 변수의 값)이 문장에서 나타나는 시작 인덱스와 끝 인덱스를 연산하여 console.log 해보세요.  
 ```javascript
@@ -165,12 +165,12 @@ var indexOfN = SOMETHING_ELSE; // SOMETHING_ELSE 부분에 dolphin의 n의 위�
 console.log(indexOfD, indexOfN);
 ```
 
-출력 예시:
+**출력 예시**:
 ```javascript
 23, 29
 ```
 
-나의 풀이:
+**나의 풀이**:
 ```javascript
 var word = "dolphin";
 var sentence = "Where did Jane get the dolphin from, John?";
