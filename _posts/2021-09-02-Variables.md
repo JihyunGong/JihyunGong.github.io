@@ -18,8 +18,7 @@ comments: true
   var x = 5;
   var x = 10; // This is OK
   ```
-  - 블록 스코프(Block scope)를 가지지 않는다.
-  
+  - 블록 스코프(Block scope)를 가지지 않는다.  
     ```javascript
     var x = 5;
 
@@ -44,8 +43,7 @@ comments: true
   let x = 5;
   let x = 10; // "SyntaxError: Identifier 'x' has already been declared 
   ```
-  - 블록 스코프를 가진다.
-  
+  - 블록 스코프를 가진다.  
     ```javascript
     let x = 5;
 
@@ -76,8 +74,7 @@ comments: true
   const x = 5;
   x = 10; // "TypeError: Assignment to constant variable.
   ```
-  - 블록 스코프를 가진다.
-  
+  - 블록 스코프를 가진다.  
     ```javascript
     const x = 5;
 
