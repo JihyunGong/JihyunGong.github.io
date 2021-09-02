@@ -11,7 +11,7 @@ comments: true
 
 변수를 선언하는 방법은 3가지 키워드를 통해 구분된다. 
 
-## var
+## ▶ var
 - var의 특징:
   - 재선언 될 수 있다.
   ```javascript
