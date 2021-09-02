@@ -11,7 +11,7 @@ comments: true
 
 변수를 선언하는 방법은 3가지 키워드를 통해 구분된다. 
 
-## 1. var
+## var
 - var의 특징:
   - 재선언 될 수 있다.
   ```javascript
@@ -35,7 +35,7 @@ comments: true
 - 사용 예: 현재는 잘 사용하지 않는 구시대적 유물이다.
 
 
-## 2. let
+## let
 - let의 특징: 
   - 재선언될 수 없다.
   ```javascript
@@ -60,7 +60,7 @@ comments: true
 - 사용 예: ES6 (2015)에서 새롭게 도입된 이후로 var를 대신하여 쓰인다.
 
 
-## 3. const
+## const
 - const의 특징:
   - 재선언될 수 없다.
   ```javascript
