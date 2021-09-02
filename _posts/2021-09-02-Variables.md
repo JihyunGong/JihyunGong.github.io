@@ -95,11 +95,12 @@ comments: true
   ```
 
 - 사용 예: 
-  - ES6 (2015)에서 새롭게 도입되었으며 변수값이 바뀔 일이 없을 때 사용한다. 
-  - 주로 Array, Object, Function, Regular expressions에 사용된다.  
+  - ES6 (2015)에서 새롭게 도입되었으며 변수값이 바뀔 일이 없을 때 사용한다.  
   ※ 여기서 주의해야할 점은 변수의 데이터값이 아닌 참조값이 바뀌지 않을 때를 말한다.
   ```javascript
   const arr = [1, 2, 3, 4, 5];
   // arr = [6, 7, 8, 9, 10]; // "TypeError: Assignment to constant variable.
   arr[0] = 0; // This is OK because this is not to change reference value of 'arr'
   ```
+  - 주로 Array, Object, Function, Regular expressions에 사용된다.  
+
