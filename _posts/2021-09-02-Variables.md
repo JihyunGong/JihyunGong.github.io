@@ -18,15 +18,15 @@ comments: true
   var x = 5;
   var x = 10; // This is OK
   ```
-  - 블록 스코프(Block scope)를 가지지 않는다.  
+  - 블록 스코프(Block scope)를 가지지 않는다.
 
-   ```javascript
-   var x = 5;
+    ```javascript
+    var x = 5;
 
-   { var x = 10; } // block scope is useless
+    { var x = 10; } // block scope is useless
 
-   console.log(x); // returns 10
-   ```
+    console.log(x); // returns 10
+    ```
   
   - 변수 선언과 초기값이 호이스팅(Hoisting)된다.
   ```javascript
@@ -44,15 +44,15 @@ comments: true
   let x = 5;
   let x = 10; // "SyntaxError: Identifier 'x' has already been declared 
   ```
-  - 블록 스코프를 가진다.  
+  - 블록 스코프를 가진다.
   
-   ```javascript
-   let x = 5;
+    ```javascript
+    let x = 5;
 
-   { let x = 10; } // redeclaring variables in the different block scope is fine
+    { let x = 10; } // redeclaring variables in the different block scope is fine
 
-   console.log(x); // returns 5
-   ```
+    console.log(x); // returns 5
+    ```
   
   - 사용하기 전에 반드시 선언되어야 한다.
   - 변수 선언은 호이스팅되지만, 초기값은 호이스팅 되지 않는다.
@@ -76,15 +76,15 @@ comments: true
   const x = 5;
   x = 10; // "TypeError: Assignment to constant variable.
   ```
-  - 블록 스코프를 가진다.  
+  - 블록 스코프를 가진다.
   
-   ```javascript
-   const x = 5;
+    ```javascript
+    const x = 5;
 
-   { const x = 10; } // redeclaring variables in the different block scope is fine
+    { const x = 10; } // redeclaring variables in the different block scope is fine
 
-   console.log(x); // returns 5
-   ```
+    console.log(x); // returns 5
+    ```
   
   - 선언과 동시에 값이 할당되어야 한다.
   ```javascript
