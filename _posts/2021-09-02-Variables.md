@@ -108,8 +108,8 @@ comments: true
   ```
   - 주로 Array, Object, Function, Regular Expressions에 사용된다.  
 
-사용 우선 
-> <키워드 ><br/>
+
+> <키워드 사용 우선순위><br/>
 > 1. const: 값의 재할당이 필요없을 때<br/>
 > 2. let: 값의 재할당이 필요할 때<br/>
 > 3. var: 특별히 전역변수가 필요할 때<br/>
