@@ -109,7 +109,7 @@ comments: true
   - 주로 Array, Object, Function, Regular Expressions에 사용된다.  
 
 
-> <키워드 사용 우선순위>  
-> 1. const: 값의 재할당이 필요없을 때  
-> 2. let: 값의 재할당이 필요할 때  
-> 3. var: 특별히 전역변수가 필요할 때  
+> <키워드 사용 우선순위>
+> - const: 값의 재할당이 필요없을 때
+> - let: 값의 재할당이 필요할 때
+> - var: 특별히 전역변수가 필요할 때
