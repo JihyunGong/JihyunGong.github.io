@@ -13,7 +13,7 @@ comments: true
 
 ## var
 - var의 특징:
-  - 재선언 될 수 있다.
+  - 재선언할 수 있다.
   ```javascript
   var x = 5;
   var x = 10; // This is OK
@@ -33,12 +33,15 @@ comments: true
   var x = 10;
   ```
   
-- 사용 예: 현재는 잘 사용하지 않는 구시대적 유물이다.
+- 사용 예: 현재는 잘 사용하지 않는 구시대적 유물이다.  
+  ※ 'var' 사용을 지양하는 이유:
+     - var는 언제 어디서든 재선언할 수 있기 때문에 대규모의 프로젝트를 진행할 경우 변수를 무한 재사용하여 예상치 못한 결과를 불러일으킬 수 있다. 
+     - var는 선언과 초기값이 함께 호이스팅되기 때문에 논리적이지 못하다. (let, const를 사용한 변수는 사용 전 선언 및 정의가 되어야 한다.)
 
 
 ## let
 - let의 특징: 
-  - 재선언될 수 없다.
+  - 재선언할 수 없다.
   ```javascript
   let x = 5;
   let x = 10; // "SyntaxError: Identifier 'x' has already been declared 
@@ -52,7 +55,7 @@ comments: true
     console.log(x); // returns 5
     ```
   
-  - 사용하기 전에 반드시 선언되어야 한다.
+  - 사용하기 전에 반드시 선언해야 한다.
   - 변수 선언은 호이스팅되지만, 초기값은 호이스팅 되지 않는다.
   ```javascript
   x = 5; // "ReferenceError: Cannot access 'x' before initialization
@@ -64,12 +67,12 @@ comments: true
 
 ## const
 - const의 특징:
-  - 재선언될 수 없다.
+  - 재선언할 수 없다.
   ```javascript
   const x = 5;
   const x = 10; // "SyntaxError: Identifier 'x' has already been declared
   ```
-  - 값이 재할당될 수없다.
+  - 값을 재할당할 수없다.
   ```javascript
   const x = 5;
   x = 10; // "TypeError: Assignment to constant variable.
@@ -83,7 +86,7 @@ comments: true
     console.log(x); // returns 5
     ```
   
-  - 선언과 동시에 값이 할당되어야 한다.
+  - 선언과 동시에 값을 할당해야 한다.
   ```javascript
   const x; // "SyntaxError: Missing initializer in const declaration
   x = 5;
