@@ -58,8 +58,12 @@ console.log(fruits);
 
 ## 5. forEach()
 
+
+
 ## 6. indexOf()
-배열에서 주어진 값과 첫번째로 일치하는 요소의 위치를 반환한다. 일치하는 요소가 없으면 -1을 반환한다.
+배열에서 주어진 값과 첫번째로 일치하는 요소의 위치를 반환한다. 
+
+일치하는 요소가 없으면 -1을 반환한다.
 ```javascript
 const fruits = ["apple", "banana", "orange"];
 
@@ -84,7 +88,7 @@ console.log(fruits.includes("banana"));
 배열의 특정한 위치에 요소를 추가하거나 제거한다.
 
 Syntax: 배열이름.splice(새로운 요소를 추가할 위치, 제거할 요소의 개수, 새로운 요소의 값...);
-- 특정 위치 요소 추가하기
+- 특정 위치 요소 추가하기  
 ```javascript
 const fruits = ["apple", "banana", "orange"];
 
@@ -94,7 +98,7 @@ console.log(fruits);
 // Expected Output:
 // ["apple", "mango", "banana", "orange"]
 ```
-- 특정 위치 요소 추가 및 제거하기
+- 특정 위치 요소 추가 및 제거하기  
 ```javascript
 const fruits = ["apple", "banana", "orange"];
 
@@ -104,7 +108,7 @@ console.log(fruits);
 // Expected Output:
 // ["apple", "mango"]
 ```
-- 특정 위치 요소 제거하기
+- 특정 위치 요소 제거하기  
 ```javascript
 const fruits = ["apple", "banana", "orange"];
 
