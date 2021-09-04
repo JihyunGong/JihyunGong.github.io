@@ -65,7 +65,7 @@ console.log(fruits);
 
     Syntax: array.forEach(function(currentValue, index, arr){}, thisValue);
 
-- 문자열
+- 문자열 배열
 
 ```javscript
 const fruits = ["apple", "banana", "orange"];
@@ -79,7 +79,7 @@ fruits.forEach(function(element, index, arr){
 // "There is banana at 1 in [apple,banana,orange]."
 // "There is orange at 2 in [apple,banana,orange]."
 ```
-- 숫자
+- 숫자 배열
 
 ```javascript
 const num = [1, 2, 3, 4, 5];
