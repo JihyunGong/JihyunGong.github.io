@@ -20,6 +20,7 @@ console.log(fruits);
 // ["apple", "banana", "orange", "watermelon"]
 ```
 
+
 ## 2. pop()
 배열의 가장 마지막 요소를 제거한다.
 ```javascript
@@ -31,6 +32,7 @@ console.log(fruits);
 // Expected Output:
 // ["apple", "banana"]
 ```
+
 
 ## 3. shift()
 배열의 첫번째 요소를 제거하고 나머지 요소들의 위치를 -1씩 이동한다.
@@ -44,6 +46,7 @@ console.log(fruits);
 // ["banana", "orange"]
 ```
 
+
 ## 4. unshift()
 배열의 첫번째 요소 위치에 새로운 요소를 추가하고 기존 요소들의 위치를 +1씩 이동한다.
 ```javascript
@@ -56,8 +59,45 @@ console.log(fruits);
 // ["mango", "apple", "banana", "orange"]
 ```
 
-## 5. forEach()
 
+## 5. forEach()
+주어진 함수를 배열의 각각의 요소에 대해 실행한다. 
+
+    Syntax: array.forEach(function(currentValue, index, arr){}, thisValue);
+
+- 문자열
+
+```javscript
+const fruits = ["apple", "banana", "orange"];
+
+fruits.forEach(function(element, index, arr){
+  console.log("There is " + element + " at " + index + " in [" + arr+ "].");
+});
+
+// Expected Output:
+// "There is apple at 0 in [apple,banana,orange]."
+// "There is banana at 1 in [apple,banana,orange]."
+// "There is orange at 2 in [apple,banana,orange]."
+```
+- 숫자
+
+```javascript
+const num = [1, 2, 3, 4, 5];
+
+num.forEach(function(element){
+  console.log(element + " * " + element + " = " + (element * element));
+});
+
+// Expected Output:
+// "1 * 1 = 1"
+// "2 * 2 = 4"
+// "3 * 3 = 9"
+// "4 * 4 = 16"
+// "5 * 5 = 25"
+```
+forEach()를 사용할 때 유의할 점은 for 반복문과 달리 break를 사용할 수 없다는 것이다.
+
+따라서 break가 필요하다면 일반 for문을 사용하는 것이 적합하다.  
 
 
 ## 6. indexOf()
@@ -73,6 +113,7 @@ console.log(fruits.indexOf("banana"));
 // 1
 ```
 
+
 ## 7. includes()
 배열에서 주어진 값의 존재 여부를 판별하여 boolean값을 반환한다.
 ```javascript
@@ -83,6 +124,7 @@ console.log(fruits.includes("banana"));
 // Expected Output:
 // true
 ```
+
 
 ## 8. splice()
 배열의 특정한 위치에 요소를 추가하거나 제거한다.
@@ -123,6 +165,7 @@ console.log(fruits);
 // ["banana", "orange"]
 ```
 
+
 ## 9. slice()
 배열의 한 부분을 추출하여 새로운 배열에 저장한다. 
 
@@ -144,6 +187,7 @@ console.log(newFruits2);
 // ["apple"]
 ```
 
+
 ## 10. sort() & reverse()
 배열의 요소들을 알파벳 순서대로(혹은 역순으로) 분류한다. 
 ```javascript
@@ -160,10 +204,10 @@ console.log(fruits.reverse());
 
 아래의 코드를 통해 확인해보자.
 ```javascript
-const fruits = [100, 3, 2, 26, 45];
+const num = [100, 3, 2, 26, 45];
 
-console.log(fruits.sort());
-console.log(fruits.reverse());
+console.log(num.sort());
+console.log(num.reverse());
 
 // Expected Output:
 // [100, 2, 26, 3, 45]
@@ -171,11 +215,11 @@ console.log(fruits.reverse());
 ```
 따라서 이 경우 적절한 function을 사용해야 한다. 
 ```javascript
-const fruits = [100, 3, 2, 26, 45];
+const num = [100, 3, 2, 26, 45];
 
 // 반환값이 음수면 a를 앞으로 분류하고, 양수면 b를 앞으로 분류함 
-console.log(fruits.sort(function(a, b){return a - b;}));
-console.log(fruits.reverse(function(a, b){return b - a;}));
+console.log(num.sort(function(a, b){return a - b;}));
+console.log(num.reverse(function(a, b){return b - a;}));
 
 // Expected Output:
 // [2, 3, 26, 45, 100]
