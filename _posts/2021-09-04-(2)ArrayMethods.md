@@ -67,7 +67,7 @@ console.log(fruits);
 
 - 문자열 배열
 
-```javscript
+```javascript
 const fruits = ["apple", "banana", "orange"];
 
 fruits.forEach(function(element, index, arr){
