@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "[JavaScript] JavaScript를 이용한 윤년 구하기"
+title: "[Algorithm] 자바스크립트를 이용한 윤년 구하기"
 date: 2021-08-24
-categories: [TIL, JavaScript]
-tags: [TIL, JavaScript, LeapYear]
+categories: [TIL, Algorithm]
+tags: [TIL,Algorithm, JavaScript, LeapYear]
 toc: true
 comments: true
 ---
