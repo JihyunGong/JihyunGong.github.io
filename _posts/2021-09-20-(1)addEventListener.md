@@ -34,5 +34,10 @@ addEventListener()를 이용해 웹 페이지에서 일어난 [이벤트](https:
 
 
 ## 예시
-
-
+- 이벤트 등록하기
+  [확인해보세요](https://jsbin.com/faqewim/edit?html,js,output)
+- 이벤트 객체 이용하기 1
+- 이벤트 객체 이용하기 2
+- 이벤트 전파 흐름 제어하기
+- 이벤트 기본 동작 취소하기
+- 이벤트 제거하기
