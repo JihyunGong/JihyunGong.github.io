@@ -55,13 +55,12 @@ addEventListener()를 이용해 웹 페이지에서 일어난 [이벤트](https:
   const mo = document.querySelector(".movr");
 
   bt.addEventListener("click", function (){
-    alert("클릭하셨습니다.");
+    alert("클릭했습니다.");
   });
   mo.addEventListener("mouseover", function(){
-    alert("마우스 커서를 올리셨습니다.");
+    alert("마우스 커서를 올렸습니다.");
   });
   ```
-  [아웃풋 확인](https://jsbin.com/faqewim/edit?html,js,output)
   
 #### - 이벤트 객체 이용하기 1
   ```html
@@ -91,11 +90,10 @@ addEventListener()를 이용해 웹 페이지에서 일어난 [이벤트](https:
     if(isNaN(ev.target.textContent)){
       alert("숫자가 아닙니다: " + ev.target.textContent);
     } else{
-      alert("숫자를 클릭하셨습니다: " + ev.target.textContent);
+      alert("숫자를 클릭했습니다: " + ev.target.textContent);
     }
   });
   ```
-  [아웃풋 확인](https://jsbin.com/cemubah/edit?html,js,output)
 
 #### - 이벤트 객체 이용하기 2
   ```html
@@ -123,7 +121,6 @@ addEventListener()를 이용해 웹 페이지에서 일어난 [이벤트](https:
   btn1.addEventListener("click", on_click);
   btn2.addEventListener("click", on_click);
   ```
-  [아웃풋 확인](https://jsbin.com/qinuguz/edit?html,js,output)
 
 #### - 이벤트 전파 흐름 제어하기
   ```html
@@ -167,7 +164,6 @@ addEventListener()를 이용해 웹 페이지에서 일어난 [이벤트](https:
     })
   }
   ```
-  [아웃풋 확인](https://jsbin.com/qebuwal/edit?html,js,output)
 
 #### - 이벤트 기본 동작 취소하기
   ```html
@@ -196,7 +192,6 @@ addEventListener()를 이용해 웹 페이지에서 일어난 [이벤트](https:
      }
   });
   ```
-  [아웃풋 확인](https://jsbin.com/bimiqaz/edit?html,js,output)
 
 #### - 이벤트 제거하기
   ```html
@@ -227,4 +222,5 @@ addEventListener()를 이용해 웹 페이지에서 일어난 [이벤트](https:
 
   btn.addEventListener("click", on_click);
   ```
-  [아웃풋 확인](https://jsbin.com/tilocut/edit?html,js,output)
+
+위 예시들의 아웃풋을 확인하고 싶다면 [JS Bin](https://jsbin.com/?html,js,output)에서 테스트해볼 것을 권장한다.
