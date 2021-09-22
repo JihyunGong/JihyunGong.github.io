@@ -44,8 +44,8 @@ t.addEventListener("click", function(ev){
   console.log(ev.currentTarget.tagName);
 });
 ```
-아래의 아웃풋은 버튼 1, 2, 3, 4, 5를 차례대로 클릭한 결과이다.
 ```
+// 아래의 아웃풋은 버튼 1, 2, 3, 4, 5를 차례대로 클릭한 결과이다.
 // Expected Output:
 "BUTTON"
 "DIV"
