@@ -27,7 +27,8 @@ comments: true
     console.log(x); // returns 10
     ```
   
-  - 변수 선언과 초기값이 호이스팅(Hoisting)된다.
+  - 변수 선언과 초기화가 함께 호이스팅(Hoisting)된다.
+    > 변수 생성 과정: 선언 > 초기화 > 할당
   ```javascript
   x = 5; // This is OK because var x is hoisted with initialization
   var x = 10;
@@ -37,7 +38,7 @@ comments: true
 
 > **var 사용을 지양하는 이유**
 > - var는 언제 어디서든 재선언할 수 있기 때문에 대규모의 프로젝트를 진행할 경우 변수를 무한 재사용하여 예상치 못한 결과를 불러일으킬 수 있다.
-> - var는 선언과 초기값이 함께 호이스팅되기 때문에 논리적이지 못하다. (let, const를 사용한 변수는 사용 전 반드시 선언(및 정의)해야 한다.)
+> - var는 선언과 초기화가 함께 호이스팅되기 때문에 논리적이지 못하다. (let, const를 사용한 변수는 사용 전 반드시 선언(및 정의)해야 한다.)
 
 
 ## let
@@ -57,13 +58,13 @@ comments: true
     ```
   
   - 사용하기 전에 반드시 선언해야 한다.
-  - 변수 선언은 호이스팅되지만, 초기값은 호이스팅 되지 않는다.
+  - 변수 선언은 호이스팅되지만, 초기화는 호이스팅 되지 않는다.
   ```javascript
   x = 5; // "ReferenceError: Cannot access 'x' before initialization
   let x = 10;
   ```
 
-- **사용 예:** ES6 (2015)에서 새롭게 도입된 이후로 var를 대신하여 쓰인다.
+- **사용 예:** ES6 (2015)에서 새롭게 도입된 이후로 var를 대신하여 자주 쓰인다.
 
 
 ## const
@@ -92,7 +93,7 @@ comments: true
   const x; // "SyntaxError: Missing initializer in const declaration
   x = 5;
   ```
-  - 변수 선언은 호이스팅되지만, 초기값은 호이스팅 되지 않는다.
+  - 변수 선언은 호이스팅되지만, 초기화는 호이스팅 되지 않는다.
   ```javascript
   x = 5; // "ReferenceError: Cannot access 'x' before initialization
   const x = 10;
@@ -100,7 +101,7 @@ comments: true
 
 - **사용 예:** 
   - ES6 (2015)에서 새롭게 도입되었으며 변수값이 바뀔 일이 없을 때 사용한다.  
-  ※ 여기서 주의해야할 점은 변수의 데이터값이 아닌 참조값이 바뀌지 않을 때를 말한다.
+  ※ 여기서 주의해야 할 점은 변수의 데이터값이 아닌 참조값이 바뀌지 않을 때(즉 재선언을 하지 않을 때)를 말한다.
   ```javascript
   const arr = [1, 2, 3, 4, 5];
   // arr = [6, 7, 8, 9, 10]; // "TypeError: Assignment to constant variable.
@@ -112,4 +113,4 @@ comments: true
 > **우선순위**<br/>
 > 1. const: 값의 재할당이 필요없을 때<br/>
 > 2. let: 값의 재할당이 필요할 때<br/>
-> 3. var: 특별히 전역변수가 필요할 때<br/>
+> 3. var: 특별히 var 변수가 필요할 때<br/>
