@@ -29,6 +29,7 @@ comments: true
   
   - 변수 선언과 초기화가 함께 호이스팅(Hoisting)된다.
     > 변수 생성 과정: 선언 > 초기화 > 할당
+ 
   ```javascript
   x = 5; // This is OK because var x is hoisted with initialization
   var x = 10;
