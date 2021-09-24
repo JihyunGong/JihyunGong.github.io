@@ -22,7 +22,7 @@ comments: true
 
   만약 블록 스코프에 var 키워드로 변수를 선언할 경우, 어디서든 그 변수에 접근이 가능하다.
 
-  그 이유는 위에서 언급했듯이 [블록 스코프는 let, const로 선언된 변수에만 유효하기 때문이다.](https://jihyungong.github.io/til/javascript/Variables/)
+  그 이유는 [블록 스코프가 let, const로 선언된 변수에만 유효하기 때문이다.](https://jihyungong.github.io/til/javascript/Variables/)
 
   반면 함수 스코프의 경우 변수에 어떠한 키워드를 사용하더라도 해당 함수 안에서만 사용이 가능하다.
 
