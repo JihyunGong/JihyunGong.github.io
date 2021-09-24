@@ -46,5 +46,4 @@ console.log(a);
 
 // Expected Output:
 // 1
-
 ```
