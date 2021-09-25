@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[JavaScript] Regular Expressions (a.k.a. 규식씨)"
+title: "[JavaScript] 정규식(Regular Expressions)이란?"
 date: 2021-08-22
 categories: [TIL, JavaScript]
 tags: [TIL, JavaScript, Regular Expressions]
@@ -8,8 +8,8 @@ toc: true
 comments: true
 ---
 
-## 1. 정규식(Regular Expressions) 이란?
-**정규식(정규 표현식)** 은 일정한 규칙을 가진 문자열을 다루는 <u>패턴</u>이다. 
+## 1. 정규식이란?
+**정규식(Regular Expressions)** 은 일정한 규칙을 가진 문자열을 다루는 <u>패턴</u>이다. 
 
 자바스크립트에서 정규식은 RegExp의 exec(), test() 그리고 String의 match(), matchAll(), replace(), replaceAll(), search(), split() 메소드와 함께 쓰인다.
 
