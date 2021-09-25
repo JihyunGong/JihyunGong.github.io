@@ -4,7 +4,7 @@ title: "[JavaScript] 매개변수과 인자의 차이"
 date: 2021-08-30
 categories: [TIL, JavaScript]
 tags: [TIL, JavaScript, Parameter, Argument]
-toc: true
+<!-- toc: true -->
 comments: true
 ---
 
