@@ -4,7 +4,7 @@ title: "[JavaScript] null과 undefined값의 차이"
 date: 2021-08-18
 categories: [TIL, JavaScript]
 tags: [TIL, JavaScript, null, undefined]
-toc: true
+<!-- toc: true -->
 comments: true
 ---
 
