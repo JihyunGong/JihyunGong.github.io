@@ -4,7 +4,7 @@ title: "[Javascript] 전역 스코프를 신중히 사용해야 하는 이유"
 date: 2021-09-25
 categories: [TIL, Javascript]
 tags: [TIL, JavaScript, Scope, global scope]
-toc: true
+<!-- toc: true -->
 comments: true
 ---
 
