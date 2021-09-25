@@ -4,7 +4,7 @@ title: "[Javascript] target과 currentTarget의 차이"
 date: 2021-09-22
 categories: [TIL, Javascript]
 tags: [TIL, JavaScript, DOM]
-toc: true
+<!-- toc: true -->
 comments: true
 ---
 
