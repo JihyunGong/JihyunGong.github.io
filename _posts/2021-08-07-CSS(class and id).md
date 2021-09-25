@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[CSS] Selectors 'class'와 'id'의 차이"
+title: "[CSS] Class와 Id의 차이"
 date: 2021-08-07
 categories: [TIL, CSS]
 tags: [TIL, CSS, HTML, class, id]
@@ -8,7 +8,7 @@ toc: true
 comments: true
 ---
 
-## 1. Selectors 정의
+## 1. Selectors란?
 쉽게 말해, **선택자(Selectors)** 는 HTML파일에 스타일을 입힐 범위를 정한다. 
 
 선택자에는 다양한 것들이 있는데 오늘 살펴볼 선택자는 **class** 와 **id** 이다.  
@@ -30,7 +30,7 @@ comments: true
 위의 코드는 선택자 id #test를 통해 HTML파일에 "test"값을 가진 요소에 접근하여 폰트 색상을 입힌 것이다. 
 
 
-## 2. class와 id의 차이
+## 2. Class와 Id의 차이
 class와 id의 큰 차이는 *이름(name)* 에서 난다. 아래의 테이블을 통해 알아보자. 
 
 \ | class | id
@@ -39,7 +39,7 @@ class와 id의 큰 차이는 *이름(name)* 에서 난다. 아래의 테이블�
 예시 | `<p class="class name">samplePara</p> //두 개의 이름을 가지고 있는 class` | `<h1 id="name">sampleHeading</h1>`<br/>`<p id="name">samplePara</p> //한 파일안에 중복된 id이름을 사용할 수 없다.`<br/>`<p id="name ">samplePara</p> //이름에 공백이 들어가면 안된다.`
 
 
-## + class의 집합 성질
+### class의 집합 성질
 class는 집합의 성질을 가지고 있다. 아래의 예시로 확인해보자. 
 
 **배경**
