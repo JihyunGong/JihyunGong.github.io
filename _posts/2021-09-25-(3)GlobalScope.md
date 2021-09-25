@@ -26,7 +26,7 @@ comments: true
     ```javascript
   // 전역 스코프
   var a = 10;
-  var a = 5; // 네이밍 충돌 발생
+  var a = 5; // 예상치 못한 결과 값 발생 (var 변수는 재선언할 수 있다)
 
   let b = 10;
   let b = 5; // 에러 발생 (let 변수는 재선언할 수 없다)
