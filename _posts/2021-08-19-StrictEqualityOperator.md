@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[JavaScript] Strict Equality(===)를 써라"
+title: "[JavaScript] Equality(==)와 Strict Equality(===)의 차이"
 date: 2021-08-19
 categories: [TIL, JavaScript]
 tags: [TIL, JavaScript, Logical Operator]
@@ -8,7 +8,7 @@ toc: true
 comments: true
 ---
 
-## Logical operator 정의
+## 1. Logical operator란?
 Equality operator와 Strict equality operator는 모두 Logical operator에 속해있다. 
 
 **Logical operator(논리적 연산자)** 의 역할은 left-operand(왼쪽 피연산자)와 right-operand(오른쪽 피연산자)의 값을 비교하여 boolean타입의 결과값을 반환시키는 것이다.
@@ -17,7 +17,7 @@ console.log(1 > 2); //returns false
 console.log(3 === 3); //returns true 
 ```
 
-## Equality(==)와 Strict Equality(===)의 차이
+## 2. Equality(==)와 Strict Equality(===)의 차이
 
 Equality(==) | Strict Equality(===)
 --- | ---
