@@ -4,7 +4,7 @@ title: "[JavaScript] indexOf() vs search() 비교 분석"
 date: 2021-08-22
 categories: [TIL, JavaScript]
 tags: [TIL, JavaScript, String Methods, indexOf(), search()]
-toc: true
+<!-- toc: true -->
 comments: true
 ---
 
