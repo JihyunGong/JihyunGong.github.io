@@ -4,7 +4,7 @@ title: "[JavaScript] Truthy vs Falsy"
 date: 2021-08-24
 categories: [TIL, JavaScript]
 tags: [TIL, JavaScript, Truthy, Falsy]
-toc: true
+<!-- toc: true -->
 comments: true
 ---
 
