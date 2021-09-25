@@ -4,7 +4,7 @@ title: "[Javascript] 함수 스코프 vs 블록 스코프"
 date: 2021-09-25
 categories: [TIL, Javascript]
 tags: [TIL, JavaScript, Scope, function scope, block scope]
-toc: true
+<!-- toc: true -->
 comments: true
 ---
 
