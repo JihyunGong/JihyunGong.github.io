@@ -15,9 +15,9 @@ comments: true
 
 
 ## 1. Immutability & Mutability
-- **Immutability: 변경 불가능한 값** 
+- **Immutability: 변경 불가능한 값**   
   (ex: Primitive type - String, Number, Boolean, Null, Undefined, Symbol)
-- **Mutability: 변경 가능한 값** 
+- **Mutability: 변경 가능한 값**  
   (ex: Reference type - Object(Array, Function))
   > - "값"은 데이터를 말한다.  
   > - "변경 불가능하다"는 메모리 영역에서 변경이 불가능하다는것을 말한다. 값의 재할당은 가능하다.
