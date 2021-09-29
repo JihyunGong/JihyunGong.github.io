@@ -26,11 +26,11 @@ comments: true
 
 - **Immutable value**
 
-```javascript
-let str = "Jane";
-str = "Doe";
-```
-Primitive type의 변수는 값의 재할당은 가능하나 변경이 불가능하다. 
+  ```javascript
+  let str = "Jane";
+  str = "Doe";
+  ```
+  Primitive type의 변수는 값의 재할당은 가능하나 변경이 불가능하다. 
 
   재할당의 과정을 좀 더 자세히 살펴보자.
 
@@ -42,16 +42,16 @@ Primitive type의 변수는 값의 재할당은 가능하나 변경이 불가능
 
 - **Mutable value**
 
-```javascript
-const obj = {
-  name: "Jane",
-  age: 20,
-  hobby: "Tennis"
-}
+  ```javascript
+  const obj = {
+    name: "Jane",
+    age: 20,
+    hobby: "Tennis"
+  }
 
-obj.name = "John";
-```
-Reference type의 변수는 값의 변경이 가능하다.
+  obj.name = "John";
+  ```
+  Reference type의 변수는 값의 변경이 가능하다.
 
   <u>참조형 변수는 데이터가 아닌 주소값을 저장한다는 사실을 기억해야 한다.</u>
 
