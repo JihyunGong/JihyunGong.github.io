@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "[Javascript] target과 currentTarget의 차이"
+title: "[JavaScript] target과 currentTarget의 차이"
 date: 2021-09-22
-categories: [TIL, Javascript]
+categories: [TIL, JavaScript]
 tags: [TIL, JavaScript, DOM]
 <!-- toc: true -->
 comments: true
