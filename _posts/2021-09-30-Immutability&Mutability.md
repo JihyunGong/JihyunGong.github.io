@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "[Javascript] Immutability & Mutability"
+title: "[JavaScript] Immutability & Mutability"
 date: 2021-09-30
-categories: [TIL, Javascript]
+categories: [TIL, JavaScript]
 tags: [TIL, JavaScript, Immutability, Mutability]
 toc: true
 comments: true
