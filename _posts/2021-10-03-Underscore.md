@@ -2,7 +2,7 @@
 layout: single
 title: "[JavaScript] 언더스코어(Underscore.js)란?"
 date: 2021-10-03
-categories: [TIL, Javascript]
+categories: [TIL, Javacript]
 tags: [TIL, JavaScript, Undersocre]
 toc: true
 comments: true
