@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "[Javascript] addEventListener()를 이용한 이벤트 등록하기"
+title: "[JavaScript] addEventListener()를 이용한 이벤트 등록하기"
 date: 2021-09-20
-categories: [TIL, Javascript]
+categories: [TIL, JavaScript]
 tags: [TIL, JavaScript, DOM]
 toc: true
 comments: true
