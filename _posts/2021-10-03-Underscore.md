@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Javascript] 언더스코어(Underscore.js)란?"
+title: "[JavaScript] 언더스코어(Underscore.js)란?"
 date: 2021-10-03
 categories: [TIL, Javascript]
 tags: [TIL, JavaScript, Undersocre]
@@ -64,25 +64,55 @@ console.log(sum);
 ```javascript
 const num = [1, 2, 3, 4, 5];
 let newNum = "";
-_(num).forEach(function(x) { newNum += (x * 2) + ""; });
+let result = "";
+
+_(num).forEach(function(x) { newNum += (x * 2) + ", "; });
+result = newNum.replace(/\,\s*$/, "");
 
 console.log(num);
-console.log(newNum);
+console.log(result);
+
+// Expected Output:
+// [1, 2, 3, 4, 5]
+// "2, 4, 6, 8, 10"
 ```
 
 ### all: 주어진 조건식에 모든 요소가 통과하면 true, 하나라도 통과하지 못하면 false를 반환
 ```javascript
+const num = [1, 2, 3, 4, 5];
+const even = _(num).all(function(x) { return x % 2 === 0; });
 
+console.log(even);
+
+// Expected Output:
+// false
 ```
 
 ### any: 주어진 조건식에 어느 한 요소라도 통과하면 true, 모든 요소가 통과하지 못하면 false를 반환
 ```javascript
+const num = [1, 2, 3, 4, 5];
+const even = _(num).any(function(x) { return x % 2 === 0; });
 
+console.log(even);
+
+// Expected Output:
+// true
 ```
 
 ### range: 범위를 지정해 그 범위에 대응하는 배열을 반환
 ```javascript
+const newArr1 = _.range(10);
+const newArr2 = _.range(0, 10);
+const newArr3 = _.range(0, 10, 2);
 
+console.log(newArr1);
+console.log(newArr2);
+console.log(newArr3);
+
+// Expected Output:
+// [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+// [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+// [0, 2, 4, 6, 8]
 ```
 
 ### flatten: 중첩배열(Nested Array)들을 하나의 배열로 반환 
