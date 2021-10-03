@@ -10,18 +10,19 @@ comments: true
 
 
 ## 1. 언더스코어(Underscore.js)란?
-언더스코어는 자바스크립트의 라이브러리로 100가지 이상의 함수를 제공한다. 
+**언더스코어는 자바스크립트의 라이브러리로 100가지 이상의 함수를 제공한다.** 
 
 언더스코어가 제공하는 함수들은 크게 다섯 가지로 분류한다. 
-- Collection functions - 배열이나 객체를 다루는 함수
-- Array funtions - 배열을 다루는 함수
-- Object functions - 객체를 다루는 함수
-- Function functions - 함수를 다루는 함수
-- Utility functions - 유틸리티 함수
+- **Collection functions** - 배열이나 객체를 다루는 함수
+- **Array funtions** - 배열을 다루는 함수
+- **Object functions** - 객체를 다루는 함수
+- **Function functions** - 함수를 다루는 함수
+- **Utility functions** - 유틸리티 함수
 
 
 ## 2. 자주 사용하는 함수 예시
-### filter: 각 요소에 대해 주어진 조건식에 일치하는 값을 새로운 리스트로 반환
+### - filter 
+각 요소에 대해 주어진 조건식에 일치하는 값을 새로운 리스트로 반환
 ```javascript
 const num = [1, 2, 3, 4, 5];
 const even = _(num).filter(function(x) { return x % 2 === 0; });
@@ -35,7 +36,8 @@ console.log(even);
 // [2, 4]
 ```
 
-### map: 각 요소를 주어진 식으로 변형시켜 새로운 리스트로 반환
+### - map 
+각 요소를 주어진 식으로 변형시켜 새로운 리스트로 반환
 ```javascript
 const num = [1, 2, 3, 4, 5];
 const mappedNum = _(num).map(function(x) { return x * 2; });
@@ -49,7 +51,8 @@ console.log(mappedNum);
 // [2, 4, 6, 8, 10]
 ```
 
-### reduce: 반복을 통해 하나의 값을 업데이트 시켜 마지막 값을 반환
+### - reduce
+반복을 통해 하나의 값을 업데이트 시켜 마지막 값을 반환
 ```javascript
 const num = [1, 2, 3, 4, 5];
 const sum = _(num).reduce(function(memo, x) { return memo + x; }, 0);
@@ -63,7 +66,8 @@ console.log(sum);
 // 15
 ```
 
-### forEach: 주어진 식을 각 요소에 대해 반복 실행
+### - forEach
+주어진 식을 각 요소에 대해 반복 실행
 ```javascript
 const num = [1, 2, 3, 4, 5];
 let newNum = "";
@@ -81,7 +85,8 @@ console.log(result);
 // "2, 4, 6, 8, 10"
 ```
 
-### all: 주어진 조건식에 모든 요소가 통과하면 true, 하나라도 통과하지 못하면 false를 반환
+### - all
+주어진 조건식에 모든 요소가 통과하면 true, 하나라도 통과하지 못하면 false를 반환
 ```javascript
 const num = [1, 2, 3, 4, 5];
 const even = _(num).all(function(x) { return x % 2 === 0; });
@@ -93,7 +98,8 @@ console.log(even);
 // false
 ```
 
-### any: 주어진 조건식에 어느 한 요소라도 통과하면 true, 모든 요소가 통과하지 못하면 false를 반환
+### - any
+주어진 조건식에 어느 한 요소라도 통과하면 true, 모든 요소가 통과하지 못하면 false를 반환
 ```javascript
 const num = [1, 2, 3, 4, 5];
 const even = _(num).any(function(x) { return x % 2 === 0; });
@@ -105,7 +111,8 @@ console.log(even);
 // true
 ```
 
-### range: 범위를 지정해 그 범위에 대응하는 배열을 반환
+### - range
+범위를 지정해 그 범위에 대응하는 배열을 반환
 ```javascript
 const newArr1 = _.range(10);
 const newArr2 = _.range(0, 10);
@@ -122,7 +129,8 @@ console.log(newArr3);
 // [0, 2, 4, 6, 8]
 ```
 
-### flatten: 중첩배열(Nested Array)들을 하나의 배열로 반환 
+### - flatten
+중첩배열(Nested Array)들을 하나의 배열로 반환 
 ```javascript
 const num = [1, 2, 3, [4, 5, 6], [7, 8, 9]];
 const newNum = _(arr).flatten();
@@ -134,7 +142,8 @@ console.log(newNum);
 // [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
-### contains: 주어진 값의 유무를 판별하여 true or false를 반환
+### - contains
+주어진 값의 유무를 판별하여 true or false를 반환
 ```javascript
 const person = {
   name: "Jane",
@@ -151,7 +160,8 @@ console.log(_.contains(person, name));
 // false
 ```
 
-### chain: 다수의 함수들을 함께 사용하기 위해 묶어주는 역할
+### - chain
+다수의 함수들을 함께 사용하기 위해 묶어주는 역할
 ```javascript
 const num = [1, 2, 3, [4, 5, 6], [7, 8, 9]];
 const newNum = _(num).chain()
