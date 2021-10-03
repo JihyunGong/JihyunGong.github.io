@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "[Javascript] DOM에서 자주 사용하는 속성/메서드 7가지"
+title: "[JavaScript] DOM에서 자주 사용하는 속성/메서드 7가지"
 date: 2021-09-17
-categories: [TIL, Javascript]
+categories: [TIL, JavaScript]
 tags: [TIL, JavaScript, DOM]
 toc: true
 comments: true
