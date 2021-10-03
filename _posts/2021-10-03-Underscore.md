@@ -20,7 +20,7 @@ comments: true
 - **Utility functions** - 유틸리티 함수
 
 
-## 2. 자주 사용하는 함수 예시
+## 2. 자주 사용하는 함수
 ### - filter 
 각 요소에 대해 주어진 조건식에 일치하는 값을 새로운 리스트로 반환
 ```javascript
