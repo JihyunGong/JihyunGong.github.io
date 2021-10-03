@@ -29,6 +29,7 @@ const even = _(num).filter(function(x) { return x % 2 === 0; });
 console.log(num);
 console.log(even);
   
+  
 // Expected Output:
 // [1, 2, 3, 4, 5]
 // [2, 4]
@@ -42,6 +43,7 @@ const mappedNum = _(num).map(function(x) { return x * 2; });
 console.log(num);
 console.log(mappedNum);
   
+  
 // Expected Output:
 // [1, 2, 3, 4, 5]
 // [2, 4, 6, 8, 10]
@@ -54,6 +56,7 @@ const sum = _(num).reduce(function(memo, x) { return memo + x; }, 0);
 
 console.log(num);
 console.log(sum);
+  
   
 // Expected Output:
 // [1, 2, 3, 4, 5]
@@ -72,6 +75,7 @@ result = newNum.replace(/\,\s*$/, "");
 console.log(num);
 console.log(result);
 
+
 // Expected Output:
 // [1, 2, 3, 4, 5]
 // "2, 4, 6, 8, 10"
@@ -84,6 +88,7 @@ const even = _(num).all(function(x) { return x % 2 === 0; });
 
 console.log(even);
 
+
 // Expected Output:
 // false
 ```
@@ -94,6 +99,7 @@ const num = [1, 2, 3, 4, 5];
 const even = _(num).any(function(x) { return x % 2 === 0; });
 
 console.log(even);
+
 
 // Expected Output:
 // true
@@ -109,6 +115,7 @@ console.log(newArr1);
 console.log(newArr2);
 console.log(newArr3);
 
+
 // Expected Output:
 // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -117,17 +124,47 @@ console.log(newArr3);
 
 ### flatten: 중첩배열(Nested Array)들을 하나의 배열로 반환 
 ```javascript
+const num = [1, 2, 3, [4, 5, 6], [7, 8, 9]];
+const newNum = _(arr).flatten();
 
+console.log(newNum);
+
+
+// Expected Output:
+// [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
-### contain: 주어진 값의 유무를 판별하여 true or flase를 반환
+### contains: 주어진 값의 유무를 판별하여 true or false를 반환
 ```javascript
+const person = {
+  name: "Jane",
+  age: 15,
+  hobby: "Drawing"
+}
 
+console.log(_.contains(person, "Jane"));
+console.log(_.contains(person, name));
+
+
+// Expected Output:
+// true
+// false
 ```
 
 ### chain: 다수의 함수들을 함께 사용하기 위해 묶어주는 역할
 ```javascript
+const num = [1, 2, 3, [4, 5, 6], [7, 8, 9]];
+const newNum = _(num).chain()
+                    .flatten()
+                    .filter(function(x) { return x % 2 === 0; })
+                    .reduce(function(memo, x) { return memo + x; }, 0)
+                    .value();
 
+console.log(newNum);
+
+
+// Expected Output:
+// 20
 ```
 
 > 위 예시 코드를 [JS Bin](https://jsbin.com/?html,js,output)에서 테스트하고 싶다면 아래의 코드를 추가할 것.
