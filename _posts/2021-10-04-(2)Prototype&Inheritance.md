@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[JavaScript] 프로토타입 & 상속"
+title: "[JavaScript] 프로토타입과 상속의 관계"
 date: 2021-10-04
 categories: [TIL, JavaScript]
 tags: [TIL, JavaScript, Prototype, Inheritance]
@@ -11,7 +11,7 @@ comments: true
 
 자바스크립트는 프로토타입 기반의 언어이며, 이 덕분에 객체 간의 상속도 가능하다.
 
-이번 포스팅은 프로토타입과 상속의 개념, 그리고 그 둘의 관계에 대해 설명한다.  
+이번 포스팅은 프로토타입과 상속의 개념을 정리하며 그 둘의 관계에 대해 설명한다.  
 
 ## 프로토타입과 상속의 관계
 둘의 관계를 알기 전, 먼저 프로토타입이 무엇인지 알아보자.
