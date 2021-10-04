@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[JavaScript] 프로토타입(Prototype)과 상속(Inheritance)"
+title: "[JavaScript] 프로토타입(Prototype) & 상속(Inheritance)"
 date: 2021-10-04
 categories: [TIL, JavaScript]
 tags: [TIL, JavaScript, Prototype, Inheritance]
