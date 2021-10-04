@@ -31,7 +31,7 @@ function Person(name, age, hobby){
   this.hobby = hobby;
   this.info = function(){
     return "Name: " + this.name + "\n Age: " + this.age + "\n Hobby: " + this.hobby;
-  }
+  };
 } // 생성자 함수안에 객체를 정의할 속성 및 메서드를 작성
 
 const jane = new Person("Jane", 20, "Tennis"); // 생성자 함수와 new 연산자를 통해 객체 jane을 생성
