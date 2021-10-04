@@ -30,6 +30,44 @@ comments: true
 
 참고로 모든 객체의 최상위 프로토타입은 <u>Object.prototype</u>이다.
 
-아래는 생성자 함수를 이용해 상속을 표현한 예시 코드이다. 
+
+아래의 예시를 통해 프로토타입과 상속의 개념을 정리해보자.
 ```javascript
+function Car(name, price, years){
+  this.name = name;
+  this.price = price;
+  this.years = years;
+  this.info = function(){
+    return "Name: " + this.name + "\n Price: " + this.price + "\n Years: " + this.years;
+  };
+} // 생성자 함수 Car 정의
+
+const audi = new Car("Audi", 2000, "2021"); 
+// 객체 audi는 프로토타입인 생성자 함수 Car를 참조함
+
+audi.used = false; // 객체 audi에 프로퍼티 추가
+audi.info = function(){
+  return "Name: " + audi.name + "\n Price: " + audi.price + 
+          "\n Years: " + audi.years + "\n Used: " + audi.used;
+}; // 생성자 함수로부터 물려받은 메서드 수정(오버라이딩)
+
+console.log(audi);
+console.log(audi.info());
+
+
+// Expected Output:
+// [object Object] {
+//   info: function(){
+//   return "Name: " + audi.name + "\n Price: " + audi.price + 
+//           "\n Years: " + audi.years + "\n Used: " + audi.used;
+// },
+//   name: "Audi",
+//   price: 2000,
+//   used: false,
+//   years: "2021"
+// }
+// "Name: Audi
+//  Price: 2000
+//  Years: 2021
+//  Used: false"
 ```
