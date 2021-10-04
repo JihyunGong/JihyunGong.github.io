@@ -4,7 +4,7 @@ title: "[JavaScript] 프로토타입(Prototype)과 상속(Inheritance)"
 date: 2021-10-04
 categories: [TIL, JavaScript]
 tags: [TIL, JavaScript, Prototype, Inheritance]
-toc: true
+<!-- toc: true -->
 comments: true
 ---
 
@@ -29,3 +29,7 @@ comments: true
 **결론적으로 프로토타입은 객체의 상속을 위해 존재한다고 봐도 무방하다.** 
 
 참고로 모든 객체의 최상위 프로토타입은 <u>Object.prototype</u>이다.
+
+아래는 생성자 함수를 이용해 상속을 표현한 예시 코드이다. 
+```javascript
+```
