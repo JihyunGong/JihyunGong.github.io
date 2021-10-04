@@ -29,7 +29,7 @@ comments: true
 **결론적으로 프로토타입은 객체의 상속을 위해 존재한다고 봐도 무방하다.** 
 
 
-아래의 예시를 통해 프로토타입과 상속의 개념을 정리해보자.
+아래 예시를 통해 프로토타입과 상속의 개념을 정리해보자.
 ```javascript
 function Car(name, price, years){
   this.name = name;
