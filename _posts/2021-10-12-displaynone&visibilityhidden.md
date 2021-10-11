@@ -16,12 +16,13 @@ display:none과 visibility:hidden은 HTML 요소의 내용을 숨기는 역할�
 ## display:none과 visibility:hidden의 차이
 **display:none과 visibility:hidden의 차이점은 요소의 영역을 유지하느냐 제거하느냐에 있다.**
 
-- **display:none** - 해당 요소의 내용을 지우고 <u>요소의 영역도 제거한다.</u>
-- **visibility:hidden** - 해당 요소의 내용을 지우고 <u>요소의 영역은 유지한다.</u>
+- display:none - 해당 요소의 내용을 지우고 <u>요소의 영역도 제거한다.</u>
+- visibility:hidden - 해당 요소의 내용을 지우고 <u>요소의 영역은 유지한다.</u>
 
 아래 예시를 통해 알아보자.
-- display:none
+- **display:none**
   ```html
+  // html
   <!DOCTYPE html>
   <html>
   <head>
@@ -36,17 +37,19 @@ display:none과 visibility:hidden은 HTML 요소의 내용을 숨기는 역할�
   </html>
   ```
   ```css
+  // css
   .display {
     display:none;
   }
   ```
-  OUTPUT:
   ```
+  // output
   Hello, World!
   ```
 
-- visibility:hidden
+- **visibility:hidden**
   ```html
+  // html
   <!DOCTYPE html>
   <html>
   <head>
@@ -61,12 +64,13 @@ display:none과 visibility:hidden은 HTML 요소의 내용을 숨기는 역할�
   </html>
   ```
   ```css
+  // html
   .visibility {
     visibility:hidden;
   }
   ```
-  OUTPUT:
   ```
+  // output
 
   Hello, World!
   ```
